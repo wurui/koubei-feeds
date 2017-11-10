@@ -1,0 +1,6 @@
+{
+  "name": "koubei-feeds",
+  "version": "0.0.1",
+  "apiDependencies": ["koubei-feeds"]
+}
+

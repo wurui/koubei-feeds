@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="demo.xsl"?>
+<root>
+    <env>
+        <domain>local</domain>
+    </env>
+    <login>
+        <uid>git/wurui</uid>
+    </login>
+    <p>
+        <title>demo page</title>
+        <desc>this is deme page</desc>
+        <owner>openxsl</owner>
+        <icon>//oxm1.cc/img/app_default.png</icon>
+    </p>
+    <data>
+            <koubei-feeds>
+        <i>
+            <icon>
+                good mobilephone
+            </icon>
+            <user>
+                strong screen
+            </user>
+            <title>
+                powerful notebook
+            </title>
+            <img>
+                light-weight laptop
+            </img>
+            <view_count>
+                527
+            </view_count>
+            <fav_count>
+                41782
+            </fav_count>
+            <spot>
+                light-weight watch
+            </spot>
+            <tag>
+                mobilephone
+            </tag>
+        </i>
+    </koubei-feeds>
+    </data>
+</root>
