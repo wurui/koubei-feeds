@@ -1,0 +1,126 @@
+@sprite:"http://i.oxm1.cc/uploads/git/wurui/img/2a9ipbasqTj9tnqax2RflktA331-6267.png";
+.oxmod-koubei-feeds{
+/* CSS */
+	pointer-events: none;
+	li.feed{
+		padding: 15px 110px 15px 15px;
+		border-top: 1px solid #ececec;
+		overflow: hidden;
+	}
+	.mainpic{
+		float:right;
+		width:95px;
+		height:72px;
+		margin-right: -95px;
+		-webkit-background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		margin-top:32px;
+	}
+	.user{
+		img{
+			width:20px;
+			height:20px;
+			border-radius: 50%;
+			vertical-align: middle;
+			margin-right: 8px;
+		}
+		height: 30px;
+		color:#666;
+	}
+	.title{
+		font-size: 18px;
+		font-weight: 400;
+		color:#111;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 2;
+		overflow: hidden;
+	}
+	.bt-op{
+		background:url(@sprite) no-repeat;
+		background-position: 5px -95px;
+		-webkit-background-size: 18px auto;
+		float: right;
+		//border:solid 1px red;
+		width:30px;
+		height:20px;
+		margin-right: -100px;
+		pointer-events: visible;
+	}
+	.bottom{
+		padding:10px 0　0;
+		color:#666;
+		em{
+			font-style: normal;
+			font-size: 12px;
+			margin-right: 10px;
+			display: inline-block;
+			white-space: nowrap;
+			vertical-align: middle;
+		}
+		.spot,.fav,.view{
+			background-image: url(@sprite);
+			background-repeat: no-repeat;
+			-webkit-background-size: 18px auto;
+			padding-left: 20px;
+			line-height: 1.2;
+			color:#999;
+		}
+		.tag{
+			color:#f60;
+			border:1px solid #f60;
+			padding: 2px;
+			border-radius: 3px;
+			line-height: 1;
+			font-size:10px;
+		}
+		.spot{
+			max-width: 124px;
+			overflow: hidden;
+			text-overflow:ellipsis;
+			background-position: 0 -62px;
+		}
+		.fav{
+			background-position: 0 -29px;
+		}
+		.view{
+			background-position: 0 1px;
+		}
+		
+	}
+	.operation-mask{
+		pointer-events: visible;
+		position: fixed;
+		width:100%;
+		height:100%;
+		top:0;
+		left:0;
+		background-color: rgba(0,0,0,.5);
+		visibility: hidden;
+		//z-index: -1;
+		transition:all .3s;
+		opacity: 0;
+		&.show{
+			visibility:visible;
+			opacity: 1;
+		}
+	}
+	.operation{
+		background-color: #fff;
+		width:120px;
+		text-align: center;
+		border-radius: 3px;
+		position: absolute;
+		right:10px;
+		li{
+			border-bottom: 1px #ececec solid;
+			line-height: 28px;
+			margin: 0 5px;
+			color:#333;
+			&:last-child{
+				border-bottom-style:none;
+			}
+		}
+	}
+ }
