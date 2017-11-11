@@ -43,7 +43,7 @@
             	<div class="operation-mask">
             		<ul class="operation J_operation">
             			<xsl:for-each select="data/operations/i">
-            				<li>
+            				<li data-action="{action}">
             					<xsl:value-of select="title"/>
             				</li>
             			</xsl:for-each>
